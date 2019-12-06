@@ -1,0 +1,34 @@
+ul li {
+    border: 2px 2px 2px 2px solid black;
+    border-radius: 20px;
+}
+
+.mybutton:hover {
+    background-color: #aaa !important;
+    border: 2px 2px 2px 2px solid #aaa !important;
+    border-radius: 20px !important;
+    cursor: pointer;
+}
+
+ul li>a {
+    color: white !important;
+    font-size: 1.2em;
+}
+
+.mycarrousel {
+    height: calc(100vh - 70px) !important;
+}
+
+.zoom-image>img {
+    transform: scale(1) !important;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.carousel-item {
+    height: 100vh !important;
+    background-size: cover !important;
+    background-position: 100% 0 !important;
+}
