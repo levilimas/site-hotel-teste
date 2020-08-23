@@ -1,5 +1,5 @@
 ul li {
-    border: 2px 2px 2px 2px solid black;
+    border: 2px 2px 2px 2px solid rgb(11, 24, 8);
     border-radius: 20px;
 }
 
@@ -11,12 +11,12 @@ ul li {
 }
 
 ul li>a {
-    color: white !important;
+    color: rgb(255, 255, 255) !important;
     font-size: 1.2em;
 }
 
 .mycarrousel {
-    height: calc(100vh - 70px) !important;
+    height: calc(100vh - 80px) !important;
 }
 
 .zoom-image>img {
@@ -31,4 +31,120 @@ ul li>a {
     height: 100vh !important;
     background-size: cover !important;
     background-position: 100% 0 !important;
+}
+
+
+/*button Carroussel*/
+
+.popover {}
+
+
+/*footer*/
+
+footer {
+    background-color: rgb(26, 24, 24);
+    padding: 5em 0;
+    padding-bottom: 40px;
+    border-top: 5px solid #4aeb3c;
+}
+
+footer h2,
+footer p,
+footer a,
+footer span {
+    color: rgba(209, 209, 209, 0.979);
+}
+
+footer h2 {
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer-box {
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+footer .wrapper:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.company-footer {
+    width: 80%;
+}
+
+.company-footer h2 {
+    margin-top: 20px;
+}
+
+.company-footer h2,
+.company-footer p {
+    margin-bottom: 20px;
+}
+
+.footer-list li {
+    margin-bottom: 15px;
+}
+
+.footer-list a {
+    transition: 0.5s;
+}
+
+.footer-list a:hover {
+    color: rgba(255, 255, 255, 0.952);
+}
+
+.footer-list li:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-footer {
+    width: 80%;
+}
+
+.footer-list.footer-nav-list span {
+    display: block;
+    float: none;
+}
+
+.fab {
+    font-size: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.footer-list li span {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #B2B2B2;
+}
+
+.footer-bottom p {
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+h4 {
+    white-space: unset;
+    writing-mode: inherit;
 }
